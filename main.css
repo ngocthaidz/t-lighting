@@ -1,0 +1,71 @@
+body {
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+#icon {
+    border-radius: 0.3em;
+    width: 2em;
+    height: 2em;
+    margin-right: 4vw;
+}
+
+#contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contact_icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#title {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.download {
+    width: 32vw;
+    height: 24vw;
+}
+
+#description {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 24px;
+    padding: 2vh 4vw;
+    margin: 2vh 4vw;
+    background-color: rgba(142, 142, 142, 0.6);
+}
+
+li {
+    color: white;
+    font-size: 1em;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+@media (min-width: 769px) {
+    #icon {
+        border-radius: 0.6em;
+        width: 3em;
+        height: 3em;
+        margin-right: 2vw;
+    }
+
+    #title {
+        text-align: center;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .download {
+        width: 18vw;
+        height: 10vw;
+    }
+}
